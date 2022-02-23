@@ -1,0 +1,13 @@
+name: tweets_example
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8.12
+  - pip
+  - pip:
+    - numpy==1.22.1
+    - pandas==1.4.0
+    - tensorflow==2.7.0
+    - nltk==3.6.7
+    - keras==2.7.0
+    - mlflow>=1.6

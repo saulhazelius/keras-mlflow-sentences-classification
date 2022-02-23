@@ -1,0 +1,15 @@
+artifact_uri: file:///home/saul/cosas_mlflow/repo_tweets/keras-mlflow-sentences-classification/keras_prediction/mlruns/0/b703b7db9a7a4e158519346e2f5c5190/artifacts
+end_time: 1645591137640
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: b703b7db9a7a4e158519346e2f5c5190
+run_uuid: b703b7db9a7a4e158519346e2f5c5190
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1645591012542
+status: 3
+tags: []
+user_id: saul

@@ -1,0 +1,21 @@
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_1 (InputLayer)        [(None, None)]            0         
+                                                                 
+ embedding (Embedding)       (None, None, 128)         640000    
+                                                                 
+ bidirectional (Bidirectiona  (None, None, 128)        98816     
+ l)                                                              
+                                                                 
+ bidirectional_1 (Bidirectio  (None, 64)               41216     
+ nal)                                                            
+                                                                 
+ dense (Dense)               (None, 1)                 65        
+                                                                 
+=================================================================
+Total params: 780,097
+Trainable params: 780,097
+Non-trainable params: 0
+_________________________________________________________________

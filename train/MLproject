@@ -1,0 +1,10 @@
+name: keras-tweets
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      hidden_units: {type: int, default: 32}
+      dropout: {type: float, default: 0.1}
+    command: "python train.py {hidden_units} {dropout}"
